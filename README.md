@@ -11,12 +11,9 @@ React + TypeScript で MUI の Wrapper コンポーネントを作成する。
 - [Prettier](https://prettier.io/)
 - [MUI](https://mui.com/)
 
-## 設計ルール
+## Doc
 
-| カテゴリ  | 依存カテゴリ                           | ストア・API アクセス | 状態管理     |
-| --------- | -------------------------------------- | -------------------- | ------------ |
-| Atoms     | なし                                   | NG                   | 自己完結のみ |
-| Molecules | Atoms                                  | NG                   | 自己完結のみ |
-| Organisms | Atoms, Molecules, Organisms            | NG                   | OK           |
-| Templates | Organisms                              | NG                   | OK           |
-| Pages     | Atoms, Molecules, Organisms, Templates | OK                   | OK           |
+- [ディレクトリ構成](doc/DIRECTORY_STRUCTURE.md)
+- [設計ルール](doc/DESIGN_RULES.md)
+- [Design Doc ルール](doc/DESIGN_DOC_RULES.md)
+- [コミットルール](doc/COMMIT_RULES.md)
